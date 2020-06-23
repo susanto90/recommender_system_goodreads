@@ -3,7 +3,7 @@
 A recommender system is a subclass of information filtering system that seeks to predict the rating or preference a user would give to an item. In this project, I try to build a simple recommender system for books on <a href="https://www.goodreads.com" target="_blank">Goodreads</a>. Goodreads is one of the largest site for readers and book recommendations.
 
 <br>
-Book's data used in this project can be obtained <a href="https://www.github.com/zygmuntz/goodbooks-10k" target="_blank">here</a>. The original data consist of 5,976,479 ratings which are given by 53,424 users for 10,000 books. For this project, I only use subset of the original data due to limitation of hardware and to prevent MemoryError during data processing. So for the recommender system, the final data consist of 361,156 ratings which are given by 4,011 users for 762 books.
+Book's data used in this project can be obtained <a href="https://www.github.com/zygmuntz/goodbooks-10k" target="_blank">here</a>. The original data consist of 5,976,479 ratings which are given by 53,424 users for 10,000 books. For this project, I only use subset of the original data due to limitation of hardware and to prevent MemoryError during data processing. So for the recommender system, the final data consist of 361,156 ratings which are given by 4,011 users for 762 books. The completed dashboard can be found <a href="https://recommender-system-goodreads.herokuapp.com/" target="_blank">here</a>
 
 
 <br>I use two approaches to build the book's recommender system:
